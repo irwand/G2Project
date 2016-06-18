@@ -1,0 +1,1 @@
+/etc/gallery2/config.php
