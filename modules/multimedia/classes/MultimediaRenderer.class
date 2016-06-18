@@ -325,12 +325,6 @@ class MultimediaRenderer extends GalleryRenderer {
                 </script>", $entity->getId(), $jsWarning, $playerJsUrl, $modernizrUrl, $entity->getId(), $title, $thumbUrl, $title,
                             $src, $entity->getMimeType(), $entity->getId(), $thumbWidth, $thumbHeight, $entity->getId(), $playerUrl, $pseudoPluginUrl, urlencode($src), $entity->getId(), $thumbUrl, $entity->getId(), $fallback);  
                 break;
-            
-                default:
-                // Sorry we don't support midi, wma, real, aiff...
-                return null;
-                break;
-            break;
 
             default:
             $display = 'Sorry your browser does not support '.$fallback;
